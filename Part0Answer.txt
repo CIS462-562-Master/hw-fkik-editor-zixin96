@@ -1,0 +1,27 @@
+Question 1
+
+- AActor
+  - ASkeleton
+  - BVHController
+  - IKController
+  - AJoint
+- ABVHController
+  - AActor
+  - ASkeleton
+- AIKController
+  - AActor
+  - ASkeleton
+- ATransform
+  - n/a
+- ASkeleton
+  - AJoint
+- AJoint
+  - ATransform
+
+
+
+Question 2
+
+- 66 ASpllineQuat
+- 1 splineVec3 (rootMotion)
+
