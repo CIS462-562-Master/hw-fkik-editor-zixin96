@@ -35,6 +35,8 @@ public:
 	float getKeyTime(int keyID);
 	void setJointRotationKey(int keyID, int jointID, quat newquat);
 
+    void updateLocalTransforms(AJoint* j, std::map<int, ASplineQuat> & motions, double time);
+
 protected:
     virtual quat ComputeBVHRot(float r1, float r2, float r3, const std::string& rotOrder);
     virtual bool loadSkeleton(std::ifstream &inFile);
